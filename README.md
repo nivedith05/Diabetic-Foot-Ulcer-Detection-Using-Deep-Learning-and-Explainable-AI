@@ -91,35 +91,6 @@ src/              Source code
   prediction/     Image prediction
 evaluation/       Training histories and results
 outputs/          Prediction and Grad-CAM outputs
-docs/             Research documentation
-assets/           Diagrams and screenshots
-```
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/dfu-detection-explainable-ai.git
-cd dfu-detection-explainable-ai
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv env
-```
-
-Activate the environment on Windows:
-
-```bash
-env\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Dataset Setup
@@ -146,9 +117,9 @@ Dataset files are not included in this repository. Refer to `dataset/README.md` 
 Run the respective training scripts:
 
 ```bash
-python src/training/train_vgg16.py
-python src/training/train_mobilenetv2.py
-python src/training/train_efficientnetb3.py
+python train_vgg16.py
+python train_mobilenetv2.py
+python train_efficientnetb3.py
 ```
 
 ## Prediction
@@ -156,7 +127,7 @@ python src/training/train_efficientnetb3.py
 Run the prediction module:
 
 ```bash
-python src/prediction/predict.py
+python predict.py
 ```
 
 Follow the script's instructions to provide an input image.
@@ -166,7 +137,7 @@ Follow the script's instructions to provide an input image.
 Run the explainability module:
 
 ```bash
-python src/explainability/gradcam.py
+python gradcam.py
 ```
 
 Generated visualizations can be stored in the `outputs/gradcam/` directory.
