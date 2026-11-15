@@ -148,11 +148,10 @@ Model comparison results will be reported using the same independent test datase
 
 | Model | Accuracy | Precision | Recall | F1-score |
 |---|---:|---:|---:|---:|
-| VGG16 | To be added | To be added | To be added | To be added |
-| MobileNetV2 | To be added | To be added | To be added | To be added |
-| EfficientNetB3 | To be added | To be added | To be added | To be added |
+| VGG16 | 0.981132 | 0.986842 | 0.974026 | 0.980392 |
+| MobileNetV2 | 0.981132 | 0.974359 | 0.987013 | 0.980645 |
+| EfficientNetB3 | 0.968553 | 0.961538 | 0.974026 | 0.967742 |
 
-*Replace the placeholders with verified final test-set metrics, not training or validation accuracy.*
 
 ## Research Documentation
 
