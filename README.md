@@ -4,14 +4,6 @@
   <strong>A Comparative Deep Learning Approach for Automated Diabetic Foot Ulcer Detection</strong>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python" />
-  <img src="https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow" />
-  <img src="https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras" />
-  <img src="https://img.shields.io/badge/Domain-Medical%20AI-green" />
-  <img src="https://img.shields.io/badge/Status-Research%20Project-purple" />
-</p>
-
 ## Overview
 
 Diabetic Foot Ulcers (DFUs) are a serious complication of diabetes that can lead to infections and other severe health consequences if not identified and managed appropriately.
