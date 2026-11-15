@@ -175,10 +175,6 @@ Refer to `docs/research_paper/` for the research document when available.
 - Improved explainability and localization techniques.
 - External validation across different image sources.
 
-## License
-
-This project is intended for academic and research purposes. Refer to the repository license and dataset licensing terms before redistribution.
-
 ## Acknowledgements
 
 We acknowledge the researchers and open-source communities whose contributions to deep learning, computer vision and explainable AI supported this project.
