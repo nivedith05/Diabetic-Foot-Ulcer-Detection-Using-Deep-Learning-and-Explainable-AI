@@ -146,11 +146,11 @@ Generated visualizations can be stored in the `outputs/gradcam/` directory.
 
 Model comparison results will be reported using the same independent test dataset and evaluation protocol.
 
-| Model | Accuracy | Precision | Recall | F1-score |
-|---|---:|---:|---:|---:|
-| VGG16 | 0.981132 | 0.986842 | 0.974026 | 0.980392 |
-| MobileNetV2 | 0.981132 | 0.974359 | 0.987013 | 0.980645 |
-| EfficientNetB3 | 0.968553 | 0.961538 | 0.974026 | 0.967742 |
+| Model | Accuracy | Precision | Recall | F1-score | AUC |
+|---|---:|---:|---:|---:|---:|
+| VGG16 | 0.987421 | 1.000000 | 0.974026 | 0.986842 | 0.999050 |
+| MobileNetV2 | 0.981132 | 0.974359 | 0.987013 | 0.980645 | 0.998891 |
+| EfficientNetB3 | 0.968553 | 0.961538 | 0.974026 | 0.967742 | 0.996674 |
 
 
 ## Research Documentation
